@@ -21,7 +21,7 @@
     "node": ">=6.0.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon",
+    "start": "egg-scripts start --daemon --port 80 --title=egg-server-showcase",
     "stop": "egg-scripts stop",
     "dev": "egg-bin dev --port 8080",
     "debug": "egg-bin debug",
