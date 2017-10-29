@@ -22,7 +22,7 @@
     "node": ">=6.0.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --port 8888 --title=egg-server-showcase;egg-scripts stop",
+    "start": "egg-scripts start --daemon --port 8888 --title=egg-server-showcase",
     "stop": "egg-scripts stop",
     "dev": "egg-bin dev --port 8080",
     "debug": "egg-bin debug",
