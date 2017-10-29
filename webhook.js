@@ -18,7 +18,7 @@ handler.on('push', function (event) {
     console.log('Received a push event for %s to %s',
         event.payload.repository.name,
         event.payload.ref)
-     const sh= spawn('sh', ['./auto_build']);
+    const sh= spawn('sh', ['./auto_build.sh']);
     sh.stdout.on('data', (data) => {
         console.log(`stdout: ${data}`);
     });
